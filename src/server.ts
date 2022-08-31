@@ -1,24 +1,11 @@
+import http from "http";
+import { getTasks, addTask, updateTask, deleteTask } from "./controller";
 // import express, { Express, Request, Response } from 'express';
 // import dotenv from 'dotenv';
+// import controller
 
 // dotenv.config();
-
-// const app: Express = express();
-// // const port = process.env.PORT;
-// const port = 2000;
-
-// app.get('/', (req: Request, res: Response) => {
-//   res.send('Express + TypeScript Server');
-// });
-
-// app.listen(port, () => {
-// console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
-// });
-import http from "http";
-
-// import controller
-import { getTasks, addTask, updateTask, deleteTask } from "./controller";
-
+// SI QUIERO UTILIZAR VARIABLES DE ENTORNO
 const port = 3000;
 
 // create the http server
